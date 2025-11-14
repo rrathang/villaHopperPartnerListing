@@ -166,7 +166,6 @@ function openModal(v){
   // WhatsApp link
   const base = `https://wa.me/${WHATSAPP_NUMBER}`;
   const text = encodeURIComponent(`Hi! I want to book ${v.name} (${v.location}).`);
-  // $("#whatsappLink").href = `${base}?text=${text}`;
 
   // reset slide to 0
   currentSlide = 0;
@@ -277,5 +276,6 @@ darkBtn.addEventListener("click", ()=>{
     setTimeout(()=>clearInterval(check), 5000);
   }
 })();
+
 
 
