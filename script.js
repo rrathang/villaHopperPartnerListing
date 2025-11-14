@@ -185,6 +185,26 @@ function closeModal(){
   $("#villaModal").setAttribute("aria-hidden","true");
 }
 
+function copyDetails() {
+    const name = document.getElementById("villaName").innerText;
+    const location = document.getElementById("villaLocation").innerText;
+
+    const text = `${name}\n${location}`;
+
+    navigator.clipboard.writeText(text).then(() => {
+        // Give small feedback to user:
+        const btn = document.getElementById("copyDetailsBtn");
+        const oldText = btn.innerText;
+        btn.innerText = "Copied!";
+        btn.style.background = "#2ecc71";
+
+        setTimeout(() => {
+            btn.innerText = oldText;
+            btn.style.background = "#111";
+        }, 1200);
+    });
+}
+
 // click outside closes
 document.getElementById("villaModal").addEventListener("click", (e)=>{
   if(e.target === document.getElementById("villaModal")) closeModal();
@@ -257,3 +277,4 @@ darkBtn.addEventListener("click", ()=>{
     setTimeout(()=>clearInterval(check), 5000);
   }
 })();
+
