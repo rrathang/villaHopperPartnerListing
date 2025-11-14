@@ -1,166 +1,208 @@
-/* ================================
-   GLOBAL PAGE STYLING
-================================ */
+/* ===== GLOBAL ===== */
+:root{
+  --bg: #f5f5f5;
+  --card: #fff;
+  --muted: #666;
+  --accent: #111;
+  --chip-bg: #eee;
+  --shadow: 0 6px 18px rgba(10,10,10,0.08);
+}
+
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 10px;
-    background: #f5f5f5;
+  margin:0;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: var(--bg);
+  color: var(--accent);
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
 }
 
-h1 {
-    margin: 10px 5px 15px;
-    font-size: 22px;
-    font-weight: bold;
+/* ===== TOPBAR ===== */
+.topbar{
+  position: sticky;
+  top: 0;
+  z-index: 60;
+  background: var(--bg);
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  padding: 8px 10px;
+}
+.topbar-inner{
+  display:flex;
+  gap:10px;
+  align-items:center;
+}
+.brand{
+  font-weight:700;
+  font-size:18px;
+  padding-right:6px;
+}
+.search-wrap{
+  flex:1;
+}
+.search-wrap input{
+  width:100%;
+  padding:8px 12px;
+  border-radius:10px;
+  border:1px solid rgba(0,0,0,0.08);
+  background: #fff;
+  box-shadow: var(--shadow);
+  font-size:14px;
+}
+.actions { display:flex; gap:8px; align-items:center; }
+.actions button{
+  border: none;
+  background: transparent;
+  font-size:16px;
+  padding:6px;
+  border-radius:8px;
+  cursor:pointer;
 }
 
-/* ================================
-   GRID LAYOUT — 2 CARDS PER ROW
-================================ */
-.container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 12px;
-    width: 100%;
-    padding: 0 5px;
-    box-sizing: border-box;
+/* FILTER CHIPS */
+.filters{
+  margin-top:8px;
+  display:flex;
+  gap:8px;
+  overflow-x:auto;
+  padding-bottom:8px;
+}
+.chip{
+  background: var(--chip-bg);
+  border: none;
+  padding:6px 11px;
+  border-radius:18px;
+  font-size:13px;
+  cursor:pointer;
+}
+.chip.active{
+  background:#111;
+  color:#fff;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
 }
 
-/* ================================
-   CARD DESIGN
-================================ */
-.card {
-    background: #fff;
-    border-radius: 12px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-    overflow: hidden;
-    cursor: pointer;
-    transition: transform 0.15s ease;
+/* PAGE TITLE */
+main{ padding: 12px 10px 80px; } /* bottom padding for safe area */
+.page-title{ margin:8px 0 12px; font-size:20px; font-weight:700; }
+
+/* ===== GRID CARDS (2 per row) ===== */
+.container{
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap:12px;
+}
+.card{
+  background:var(--card);
+  border-radius:14px;
+  overflow:hidden;
+  box-shadow: var(--shadow);
+  transition: transform .14s ease, box-shadow .14s ease;
+  cursor:pointer;
+}
+.card:hover{ transform: translateY(-4px); box-shadow: 0 14px 40px rgba(10,10,10,0.12); }
+.card img{ width:100%; height:140px; object-fit:cover; display:block; }
+.card-body{ padding:10px; }
+.card h3{ margin:0 0 6px; font-size:15px; }
+.muted{ color:var(--muted); font-size:13px; margin:0 0 8px; }
+
+/* card button */
+.card .btn{
+  display:inline-block;
+  margin-top:6px;
+  background:#111;
+  color:#fff;
+  border-radius:10px;
+  padding:8px 10px;
+  font-size:13px;
+  border:none;
+  width:100%;
+  text-align:center;
 }
 
-.card:hover {
-    transform: scale(1.02);
+/* ===== MODAL ===== */
+.modal{ display:none; position:fixed; inset:0; background:rgba(0,0,0,0.6); z-index:200; padding:20px; }
+.modal-content{
+  background:var(--card);
+  width:100%;
+  max-width:720px;
+  margin:40px auto;
+  border-radius:14px;
+  padding:18px;
+  box-shadow: 0 18px 80px rgba(0,0,0,0.28);
+  max-height:84%;
+  overflow:auto;
+  position:relative;
+}
+.close{ position:absolute; right:16px; top:10px; font-size:26px; background:transparent; border:none; cursor:pointer; }
+
+/* tags */
+.tags{ margin:10px 0; }
+.tag{ display:inline-block; background:#f0f0f0; padding:6px 10px; border-radius:16px; margin-right:8px; font-size:12px; }
+
+/* gallery with scroll-snap */
+.gallery-wrap{ position:relative; margin:10px 0 14px; display:flex; align-items:center; gap:8px; }
+.gallery{
+  display:flex;
+  gap:10px;
+  overflow-x:auto;
+  padding:10px 6px;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+.gallery img{
+  scroll-snap-align: center;
+  min-width:75%;
+  max-width:75%;
+  height:220px;
+  object-fit:cover;
+  border-radius:10px;
+  flex:0 0 auto;
 }
 
-.card img {
-    width: 100%;
-    height: 130px;
-    object-fit: cover;
-    display: block;
+/* gallery arrows */
+.g-arrow{
+  background: rgba(255,255,255,0.9);
+  border:none;
+  border-radius:8px;
+  width:36px; height:36px;
+  display:flex; align-items:center; justify-content:center;
+  box-shadow:0 6px 18px rgba(0,0,0,0.12);
+  cursor:pointer;
 }
+.g-arrow.left{ margin-left:6px; }
+.g-arrow.right{ margin-right:6px; }
 
-.card h3 {
-    margin: 10px 10px 5px;
-    font-size: 14px;
+/* amenities list and details */
+#villaAmenities{ padding-left:18px; margin-top:6px; }
+.details-row{ display:flex; gap:12px; flex-wrap:wrap; margin-top:8px; font-size:13px; color:var(--muted); }
+
+/* modal actions */
+.modal-actions{ display:flex; gap:10px; margin-top:12px; align-items:center; }
+.whatsapp-btn{
+  background:#25D366; color:#fff; padding:10px 14px; border-radius:10px; text-decoration:none; font-weight:600;
+  display:inline-block;
 }
+.close-btn{ background:#eee; border:none; padding:10px 12px; border-radius:10px; cursor:pointer; }
 
-.card p {
-    margin: 0 10px 10px;
-    font-size: 12px;
-    color: #666;
+/* ===== DARK MODE ===== */
+body.dark{
+  --bg: #0b0b0d;
+  --card: #0f1113;
+  --muted: #9aa0a6;
+  --accent: #e6eef6;
+  --chip-bg: rgba(255,255,255,0.06);
+  color: var(--accent);
+  background: #040506;
 }
+body.dark .search-wrap input{ background:#0b0b0d; color:var(--accent); border:1px solid rgba(255,255,255,0.06); }
+body.dark .card{ box-shadow: 0 8px 28px rgba(0,0,0,0.6); }
 
-/* BUTTON */
-.card button {
-    width: calc(100% - 20px);
-    margin: 0 10px 10px;
-    padding: 8px;
-    background: #222;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    font-size: 12px;
+/* ===== RESPONSIVE TWEAKS ===== */
+@media (max-width: 520px){
+  .gallery img{ min-width:80%; max-width:80%; height:180px; }
+  .card img{ height:120px; }
+  .container{ grid-template-columns: repeat(2, 1fr); gap:10px; }
 }
-
-/* ================================
-   MODAL BACKDROP
-================================ */
-.modal {
-    display: none;
-    position: fixed;
-    inset: 0;
-    background: rgba(0,0,0,0.7);
-    z-index: 999;
-}
-
-/* ================================
-   MODAL CONTAINER
-================================ */
-.modal-content {
-    background: #fff;
-    width: 92%;
-    max-width: 600px;
-    margin: 50px auto;
-    padding: 20px;
-    border-radius: 14px;
-    position: relative;
-    max-height: 85%;
-    overflow-y: auto;
-}
-
-.close {
-    position: absolute;
-    right: 15px;
-    top: 10px;
-    font-size: 30px;
-    cursor: pointer;
-}
-
-/* ================================
-   TAGS (Villa Type)
-================================ */
-.tags {
-    margin: 10px 0;
-}
-
-.tag {
-    background: #ededed;
-    padding: 5px 12px;
-    border-radius: 20px;
-    font-size: 11px;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    display: inline-block;
-}
-
-/* ================================
-   GALLERY (SCROLLABLE HORIZONTAL)
-================================ */
-.gallery {
-    display: flex;
-    gap: 10px;
-    overflow-x: auto;
-    padding: 10px 0;
-}
-
-.gallery img {
-    height: 180px;
-    border-radius: 10px;
-}
-
-/* ================================
-   AMENITIES LIST
-================================ */
-#villaAmenities {
-    padding-left: 18px;
-}
-
-#villaAmenities li {
-    font-size: 13px;
-    margin-bottom: 4px;
-}
-
-/* ================================
-   RESPONSIVE TWEAKS
-================================ */
-@media (max-width: 430px) {
-    .card img {
-        height: 120px;
-    }
-}
-
-@media (max-width: 380px) {
-    .card img {
-        height: 110px;
-    }
+@media (max-width: 360px){
+  .container{ grid-template-columns: repeat(1, 1fr); } /* fallback for very small screens */
+  .card img{ height:110px; }
 }
