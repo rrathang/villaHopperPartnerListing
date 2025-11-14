@@ -1,0 +1,26 @@
+{
+  "villas": [
+    {
+      "id": "villa1",
+      "title": "Beachfront Villa",
+      "location": "Mahabalipuram, Tamil Nadu",
+      "price": "₹12,000 / night",
+      "description": "A beautiful beachfront villa with a private pool and garden.",
+      "images": [
+        "images/villa1/1.jpg",
+        "images/villa1/2.jpg"
+      ]
+    },
+    {
+      "id": "villa2",
+      "title": "Modern Glass Villa",
+      "location": "ECR, Chennai",
+      "price": "₹18,000 / night",
+      "description": "A modern villa with stunning interiors and luxurious glass architecture.",
+      "images": [
+        "images/villa2/1.jpg",
+        "images/villa2/2.jpg"
+      ]
+    }
+  ]
+}
