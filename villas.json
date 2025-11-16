@@ -32,14 +32,32 @@
   },
   {
     "id": 2,
-    "name": "Chennai City Villa",
-    "rooms": 2,
-    "pool": false,
-    "beachside": false,
-    "type": ["Family"],
-    "description": "A cozy premium villa in central Chennai, perfect for couples or business stays.",
-    "amenities": ["AC", "TV", "Kitchen", "Parking"],
+    "name": "Villa #2",
+    "rooms": 4,
+    "pool": true,
+    "beachside": true,
+    "type": ["Friends", "Family"],
+    "description": "Enjoy a perfect getaway with private beach access, a refreshing swimming pool, and 4 cozy bedrooms for a comfortable stay.\nRelax on the spacious lawn, enjoy music with in-house speakers, and stay worry-free with power backup and car parking.",
+    "amenities": [
+      "Private Beach Access",
+      "4 Cozy Bedrooms",
+      "Lawn to Chill",
+      "Music Speakers",
+      "Swimming Pool",
+      "Power Backup",
+      "Car Parking",
+      "Games: Chess, UNO, Snake & Ladder"
+    ],
     "location": "Chennai, Tamil Nadu",
-    "images": ["images/villa2/1.jpg", "images/villa2/2.jpg"]
+    "images": [
+      "images/villa2/1.jpeg",
+      "images/villa2/2.jpeg",
+      "images/villa2/3.jpeg",
+      "images/villa2/4.jpeg",
+      "images/villa2/5.jpeg",
+      "images/villa2/6.jpeg",
+      "images/villa2/7.jpeg",
+      "images/villa2/8.jpeg"
+    ]
   }
 ]
