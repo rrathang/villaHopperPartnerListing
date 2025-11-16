@@ -1,0 +1,63 @@
+[
+  {
+    "id": 1,
+    "name": "Villa #1",
+    "rooms": 3,
+    "pool": true,
+    "beachside": false,
+    "type": ["Couple", "Corporate", "Friends", "Family", "Events"],
+    "description": "A Comfortable 3 Bedroom villa located near Mahabalipuram with private pool.",
+    "amenities": [
+      "3 Air-Conditioned Bedrooms",
+      "2 Extra Beds available",
+      "Basic Kitchen equipped for light cooking",
+      "24-Hour Drinking Water",
+      "Fun & Games",
+      "WiFi",
+      "Power Backup",
+      "Private Pool",
+      "Parking"
+    ],
+    "location": "Tiger Caves, Mahabalipuram, Tamil Nadu",
+    "images": [
+      "images/villa1/1.jpeg",
+      "images/villa1/2.jpeg",
+      "images/villa1/3.jpeg",
+      "images/villa1/4.jpeg",
+      "images/villa1/5.jpeg",
+      "images/villa1/6.jpeg",
+      "images/villa1/7.jpeg",
+      "images/villa1/8.jpeg"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Villa #2",
+    "rooms": 4,
+    "pool": true,
+    "beachside": true,
+    "type": ["Friends", "Family"],
+    "description": "Enjoy a perfect getaway with private beach access, a refreshing swimming pool, and 4 cozy bedrooms for a comfortable stay.\nRelax on the spacious lawn, enjoy music with in-house speakers, and stay worry-free with power backup and car parking.",
+    "amenities": [
+      "Private Beach Access",
+      "4 Cozy Bedrooms",
+      "Lawn to Chill",
+      "Music Speakers",
+      "Swimming Pool",
+      "Power Backup",
+      "Car Parking",
+      "Games: Chess, UNO, Snake & Ladder"
+    ],
+    "location": "Chennai, Tamil Nadu",
+    "images": [
+      "images/villa2/1.jpeg",
+      "images/villa2/2.jpeg",
+      "images/villa2/3.jpeg",
+      "images/villa2/4.jpeg",
+      "images/villa2/5.jpeg",
+      "images/villa2/6.jpeg",
+      "images/villa2/7.jpeg",
+      "images/villa2/8.jpeg"
+    ]
+  }
+]
