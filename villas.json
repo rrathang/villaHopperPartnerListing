@@ -124,6 +124,77 @@
         "images/villa4/9.jpeg",
         "images/villa4/10.jpeg"
     ]
+  },
+  {
+    "id": 5,
+    "name": "Villa #5",
+    "rooms": 5,
+    "pool": true,
+    "beachside": false,
+    "type": ["Corporate", "Friends", "Family", "Events"],
+    "description": "Private 5BHK luxury villa with beach view, swimming pool, AC bedrooms, terrace, balcony, theatre access option, and just 200m walking distance to the beach.",
+    "amenities": [
+        "5 AC Bedrooms with Attached Bathrooms",
+        "Private Swimming Pool",
+        "Living Room & Kitchen with AC",
+        "Sofa, TV, Fridge & WiFi",
+        "Basic Kitchen Items",
+        "Private Terrace & One Balcony",
+        "Lawn with Sitout Area",
+        "Car Parking",
+        "24 Hours Drinking Water",
+        "Power Backup",
+        "Caretaker Available",
+        "Extra Beds & Extra Chairs",
+        "Speaker with Mic (Additional Charges)",
+        "Private Theatre Access with 6 Recliners & 3 Chairs (3 Hours, ₹10,000 Extra)"
+    ],
+    "location": "ECR, Chennai",
+    "images": [
+        "images/villa5/1.jpeg",
+        "images/villa5/2.jpeg",
+        "images/villa5/3.jpeg",
+        "images/villa5/4.jpeg",
+        "images/villa5/5.jpeg",
+        "images/villa5/6.jpeg",
+        "images/villa5/7.jpeg",
+        "images/villa5/8.jpeg",
+        "images/villa5/9.jpeg"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Villa #6",
+    "rooms": 5,
+    "pool": true,
+    "beachside": true,
+    "type": ["Corporate", "Friends", "Family", "Events"],
+    "description": "Private 5BHK villa with a swimming pool, AC bedrooms, terrace, balcony, and just 100m walking distance to the beach.",
+    "amenities": [
+        "5 AC Bedrooms with Attached Bathrooms",
+        "Private Swimming Pool",
+        "Living Room & Kitchen with AC",
+        "Sofa, TV, Fridge & WiFi",
+        "Basic Kitchen Items",
+        "Private Terrace & One Balcony",
+        "Lawn with Sitout Area",
+        "Car Parking",
+        "24 Hours Drinking Water",
+        "Power Backup",
+        "Caretaker Available",
+        "Extra Beds & Extra Chairs",
+        "Speaker with Mic (Additional Charges)"
+    ],
+    "location": "ECR, Chennai",
+    "images": [
+        "images/villa6/1.jpeg",
+        "images/villa6/2.jpeg",
+        "images/villa6/3.jpeg",
+        "images/villa6/4.jpeg",
+        "images/villa6/5.jpeg",
+        "images/villa6/6.jpeg",
+        "images/villa6/7.jpeg",
+        "images/villa6/8.jpeg"
+    ]
 }
-
 ]

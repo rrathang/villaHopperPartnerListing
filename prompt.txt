@@ -1,0 +1,52 @@
+I will give you the villa ID and the details of the villa (amenities, location, bedroom count, kitchen details, pool info, rules, extra features, etc.).
+Using this information, create a clean Python dictionary in the following format:
+
+{
+  "id": <id_given_by_me>,
+  "name": "Villa #<id>",
+  "rooms": <number_of_bedrooms>,
+  "pool": <true_or_false>,          # use true or false in lowercase
+  "beachside": <true_or_false>,     # true only if villa is directly on the beach
+  "type": ["Friends", "Family"],    # choose relevant categories based on info
+  "description": "<one-line summary of the villa>",
+  "amenities": [
+      "Short, grouped, clean list of amenities",
+      "Combine related points",
+      "Remove duplicates",
+      "Keep wording simple and consistent"
+  ],
+  "location": "<City/Area>",
+  "images": [
+      "images/villa<id>/1.jpeg",
+      "images/villa<id>/2.jpeg",
+      ...
+  ]
+}
+
+
+Rules:
+
+I will provide the ID, and you must use it for:
+
+"id"
+
+"name": "Villa #<id>"
+
+Image folder path: "images/villa<id>/..."
+
+Use lowercase true and false for boolean values.
+
+The "description" must be a single line only.
+
+Determine "pool" based on details (true/false).
+
+Set "beachside": true ONLY if the villa is directly on the beach.
+If it is “walkable distance”, use "beachside": false.
+
+Group amenities logically and keep them concise.
+
+Do not add any extra information that I did not provide.
+
+Details:
+ID:
+Villa Information:
