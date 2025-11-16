@@ -18,7 +18,7 @@
       "Private Pool",
       "Parking"
     ],
-    "location": "Tiger Caves, Mahabalipuram, , ECR, Tamil Nadu",
+    "location": "Mahabalipuram, , ECR, Chennai, Tamil Nadu",
     "images": [
       "images/villa1/1.jpeg",
       "images/villa1/2.jpeg",
@@ -48,7 +48,7 @@
       "Car Parking",
       "Games: Chess, UNO, Snake & Ladder"
     ],
-    "location": "Muthukadu, ECR, Tamil Nadu",
+    "location": "Muthukadu, ECR, Chennai, Tamil Nadu",
     "images": [
       "images/villa2/1.jpeg",
       "images/villa2/2.jpeg",
@@ -78,7 +78,7 @@
       "Bar Table",
       "Caretaker Available"
     ],
-    "location": "Kovalam, ECR, Tamil Nadu",
+    "location": "Kovalam, ECR, Chennai Tamil Nadu",
     "images": [
       "images/villa3/1.jpeg",
       "images/villa3/2.jpeg",
@@ -91,5 +91,39 @@
       "images/villa3/9.jpeg",
       "images/villa3/10.jpeg"
     ]
-  }
+  },
+  {
+    "id": 4,
+    "name": "Villa #4",
+    "rooms": 4,
+    "pool": true,
+    "beachside": false,
+    "type": ["Friends", "Family"],
+    "description":  "A private 4BHK villa in Uthandi, located opposite PVR Cinemas and just 400m from the beach, Enjoy a fully private house with a spacious hall, basic kitchen setup, double-door fridge, and a 30x15 ft swimming pool with a cozy lawn space. All rooms are air-conditioned with king-size beds, and a caretaker is available throughout your stay.",
+    "amenities": [
+        "4 Air-Conditioned Bedrooms with King-Size Beds",
+        "Private House & Private Swimming Pool",
+        "Spacious Hall with Dining and Living Area",
+        "Basic Kitchen with Induction, Kettle & Utensils",
+        "Double-Door Refrigerator",
+        "Outdoor Barbeque Setup (Skewers Provided)",
+        "Small Lawn & Mango Tree Space",
+        "Indoor Car Parking for 2 Cars",
+        "Caretaker Available"
+    ],
+    "location": "Uthandi, ECR, Tamil Nadu",
+    "images": [
+        "images/villa4/1.jpeg",
+        "images/villa4/2.jpeg",
+        "images/villa4/3.jpeg",
+        "images/villa4/4.jpeg",
+        "images/villa4/5.jpeg",
+        "images/villa4/6.jpeg",
+        "images/villa4/7.jpeg",
+        "images/villa4/8.jpeg",
+        "images/villa4/9.jpeg",
+        "images/villa4/10.jpeg"
+    ]
+}
+
 ]
