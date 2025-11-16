@@ -59,5 +59,37 @@
       "images/villa2/7.jpeg",
       "images/villa2/8.jpeg"
     ]
+  },
+  {
+    "id": 3,
+    "name": "Villa #3",
+    "rooms": 4,
+    "pool": true,
+    "beachside": true,
+    "type": ["Friends", "Family"],
+    "description": "Experience a spacious 4BHK luxury villa in Kovalam, just a short walk from the beach.\nEnjoy a private swimming pool, small lawn, AV hall, bar table, and fully equipped kitchen across three floors.\nWith 24/7 power backup, WiFi, TV, and a dedicated caretaker, your stay is comfortable and hassle-free.",
+    "amenities": [
+      "4BHK Luxury Villa (1 Ground Floor, 2 First Floor, 1 Second Floor)",
+      "Kovalam Location – Beach Walking Distance",
+      "Private Swimming Pool & Small Lawn",
+      "AV Hall, Sofa & TV",
+      "WiFi & 24/7 Power Backup (Generator)",
+      "Fully Equipped Kitchen with Refrigerator",
+      "Bar Table",
+      "Caretaker Available"
+    ],
+    "location": "Kovalam, ECR, Tamil Nadu",
+    "images": [
+      "images/villa3/1.jpeg",
+      "images/villa3/2.jpeg",
+      "images/villa3/3.jpeg",
+      "images/villa3/4.jpeg",
+      "images/villa3/5.jpeg",
+      "images/villa3/6.jpeg",
+      "images/villa3/7.jpeg",
+      "images/villa3/8.jpeg",
+      "images/villa3/9.jpeg",
+      "images/villa3/10.jpeg"
+    ]
   }
 ]
