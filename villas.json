@@ -196,5 +196,41 @@
         "images/villa6/7.jpeg",
         "images/villa6/8.jpeg"
     ]
+},
+  {
+    "id": 7,
+    "name": "Villa #7",
+    "rooms": 5,
+    "pool": true,
+    "beachside": false,
+    "type": ["Corporate", "Friends", "Family"],
+    "description": "Private 5BHK villa with a swimming pool, AC bedrooms, terrace, balcony",
+    "amenities": [
+        "5 AC Bedrooms with Attached Bathrooms",
+        "Private Swimming Pool",
+        "Living Room & Kitchen with AC",
+        "Sofa, TV, Fridge & WiFi",
+        "Basic Kitchen Items",
+        "Private Terrace & One Balcony",
+        "Car Parking",
+        "24 Hours Drinking Water",
+        "Power Backup",
+        "Caretaker Available",
+        "Extra Beds & Extra Chairs",
+        "Speakers"
+    ],
+    "location": "Guduvancheri, Chennai",
+    "images": [
+        "images/villa7/1.jpeg",
+        "images/villa7/2.jpeg",
+        "images/villa7/3.jpeg",
+        "images/villa7/4.jpeg",
+        "images/villa7/5.jpeg",
+        "images/villa7/6.jpeg",
+        "images/villa7/7.jpeg",
+        "images/villa7/8.jpeg",
+        "images/villa7/9.jpeg"
+    ]
 }
+
 ]
