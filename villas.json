@@ -231,6 +231,40 @@
         "images/villa7/8.jpeg",
         "images/villa7/9.jpeg"
     ]
+},
+  {
+    "id": 8,
+    "name": "Villa #8",
+    "rooms": 3,
+    "pool": true,
+    "beachside": false,
+    "type": ["Corporate", "Friends", "Family", "Events"],
+    "description": "Private 3BHK villa with a swimming pool, AC bedrooms, terrace, balcony, lawn, Bar Setup",
+    "amenities": [
+        "3 AC Bedrooms with Attached Bathrooms",
+        "Private Swimming Pool",
+        "Living Room & Kitchen with AC",
+        "Sofa, TV, Fridge & WiFi",
+        "Basic Kitchen Items",
+        "Lawn with Bar Setup",
+        "Car Parking",
+        "24 Hours Drinking Water",
+        "Power Backup",
+        "Caretaker Available",
+        "Extra Beds & Extra Chairs",
+        "Speakers"
+    ],
+    "location": "Guduvancheri, Chennai",
+    "images": [
+        "images/villa8/1.jpeg",
+        "images/villa8/2.jpeg",
+        "images/villa8/3.jpeg",
+        "images/villa8/4.jpeg",
+        "images/villa8/5.jpeg",
+        "images/villa8/6.jpeg",
+        "images/villa8/7.jpeg",
+        "images/villa8/8.jpeg",
+        "images/villa8/9.jpeg"
+    ]
 }
-
 ]
