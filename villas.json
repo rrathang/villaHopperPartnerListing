@@ -69,8 +69,8 @@
     ],
     "location": "Guduvancheri, Chennai",
     "price": {
-      "weekday": "Contact for Price",
-      "weekend": "Contact for Price"
+      "weekday": "15000",
+      "weekend": "25000"
     },
     "images": [
       "images/villa2/1.jpg",
@@ -112,8 +112,8 @@
     ],
     "location": "Guduvancheri, Chennai",
     "price": {
-      "weekday": "Contact for Price",
-      "weekend": "Contact for Price"
+      "weekday": "10000",
+      "weekend": "16000"
     },
     "images": [
       "images/villa3/1.jpg",
