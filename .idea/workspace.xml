@@ -5,8 +5,69 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b009684-6391-4507-8c82-2eb8ed5793f3" name="Changes" comment="new listing">
-      <change afterPath="$PROJECT_DIR$/villas_old1.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa2/1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/villa2/1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa2/2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/villa2/2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa2/3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/villa2/3.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa2/4.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/villa2/4.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa2/5.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/villa2/5.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa2/6.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/villa2/6.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa2/7.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/villa2/7.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa2/8.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/villa2/8.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa3/1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/villa3/1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa3/10.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa3/2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/villa3/2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa3/3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/villa3/3.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa3/4.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/villa3/4.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa3/5.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/villa3/5.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa3/6.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/villa3/6.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa3/7.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/villa3/7.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa3/8.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/villa3/8.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa3/9.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/villa3/9.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa4/1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa4/2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa4/3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa4/4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa4/5.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa4/6.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa4/7.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa4/8.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa4/9.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa5/1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa5/2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa5/3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa5/4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa5/5.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa5/6.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa5/7.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa5/8.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa5/9.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa6/1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa6/2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa6/3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa6/4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa6/5.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa6/6.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa6/7.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa6/8.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa7/1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa7/2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa7/3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa7/4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa7/5.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa7/6.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa7/7.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa7/8.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa7/9.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa8/1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa8/2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa8/3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa8/4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa8/5.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa8/6.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa8/7.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa8/8.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/villa8/9.jpeg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/villas.json" beforeDir="false" afterPath="$PROJECT_DIR$/villas.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,18 +108,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Notification.DisplayName-DoNotAsk-git.merge.local.changes.detected": "Git Pull Failed",
-    "Notification.DoNotAsk-git.merge.local.changes.detected": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "P:/My_Stuffs/Business/Resort/Hopper#70/Website/villaHopperPartnerListing"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Notification.DisplayName-DoNotAsk-git.merge.local.changes.detected&quot;: &quot;Git Pull Failed&quot;,
+    &quot;Notification.DoNotAsk-git.merge.local.changes.detected&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;P:/My_Stuffs/Business/Resort/Hopper#70/Website/villaHopperPartnerListing&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="P:\My_Stuffs\Business\Resort\Hopper#70\Website\villaHopperPartnerListing" />
@@ -255,7 +316,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764092333957</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="new listing">
+      <option name="closed" value="true" />
+      <created>1764512979898</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1764512979898</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
