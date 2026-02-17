@@ -194,6 +194,24 @@ body {
   font-size:12px;
 }
 
+/* PRICE ROW IN MODAL */
+.price-row{
+  display:flex;
+  gap:20px;
+  margin:10px 0;
+  background:var(--chip-bg);
+  padding:10px 14px;
+  border-radius:12px;
+  align-items:center;
+}
+.price-item{
+  font-size:14px;
+  font-weight:600;
+  display:flex;
+  gap:6px;
+  align-items:center;
+}
+
 /* ============= SLIDER (NEW VERSION) ============= */
 .slider-wrap{
   margin:12px 0;
